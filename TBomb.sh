@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
-echo -e "\e[4;31m Amitroy Productions !!! \e[0m"
+echo -e "\e[4;31m sunilrajak !!! \e[0m"
 echo -e "\e[1;34m Presents \e[0m"
 echo -e "\e[1;32m TBomb \e[0m"
 echo "Press Enter To Continue"
 read a1
-if [[ -s update.amit  ]];then
+if [[ -s update.sunil  ]];then
 echo "All Requirements Found...."
 else
 echo 'Installing Requirements....'
@@ -27,9 +27,9 @@ echo -e "\e[1;31m"
 figlet TBomb
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border SpeedX
-echo -e "\e[4;34m This Bomber Was Created By Ãmìt røy \e[0m"
+echo -e "\e[4;34m This Bomber Was Created By sunilrajak \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           Mail: amitkumar9622770120aaaa@gmail.com \e[0m"
+echo -e "\e[1;32m           Mail: sunilrajak5267890@gmail.com \e[0m"
 echo -e "\e[4;32m   YouTube Page: https://www.youtube.com coming soon.. \e[0m"
 echo " "
 echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
@@ -37,7 +37,7 @@ echo " "
 echo "Press 1 To  Start SMS Bomber"
 echo "Press 2 To  Start Call Bomber"
 echo "Press 3 To  Update (Works On Linux And Linux Emulators) "
-echo "Press 4 To  View Features Roy "
+echo "Press 4 To  View Features sunil "
 echo "Press 5 To  Exit "
 read ch
 if [ $ch -eq 1 ];then
@@ -50,7 +50,7 @@ exit 0
 elif [ $ch -eq 2 ];then
 clear
 echo -e "\e[1;32m"
-echo 'Call Bomb By Amit Roy'> call.xxx
+echo 'Call Bomb By sunilrajak'> call.xxx
 python3 bomber.py call
 rm *.xxx >/dev/null 2>&1
 exit 0
@@ -58,13 +58,13 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://https://github.com/Amitroy12/amitattack/edit/master/TBomb.sh
+git clone https://github.com/Amitroy12/sunilrajak/edit/master/TBomb.sh
 if [[ -s TBomb/TBomb.sh ]];then
 cd TBomb
 cp -r -f * .. > temp
 cd ..
 rm -rf  TBomb >> temp
-rm update.Amit >> temp
+rm update.sunil >> temp
 rm temp
 chmod +x TBomb.sh
 fi
@@ -90,7 +90,7 @@ echo "  [+] Automated Future Updates"
 echo "  [+] Easy To Use And Embed in Code"
 echo -e "\e[1;32m                   Contributors\e[1;33m"
 echo -e "\e[1;33m      [*]  SpeedX   \e[1;31m"
-echo "         [-] Mail At: amitkumar9622770120aaaa@@gmail.com"
+echo "         [-] Mail At: sunilrajak5267890@gmail.com"
 echo -e "\e[1;33m      [*]  The Black Hacker Roxstar   \e[1;31m"
 echo "         [-] Ping At: http://wa.me/917600140353"
 echo -e "\e[1;33m      [*]  Rieltar   \e[1;31m"
@@ -106,8 +106,8 @@ echo -e "\e[1;32m Make Sure To Update it If It Does not Work.\e[0m"
 echo  " "
 echo -e "\e[4;31m That's All !!!\e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           Mail: amitkumar9622770120aaaa@gmail.com \e[0m"
-echo -e "\e[1;32m       Whatsapp: https://bit.do/amitkumar9622770120aaaa@gmail.com \e[0m"
+echo -e "\e[1;32m           Mail: sunilrajak5267890@gmail.com \e[0m"
+echo -e "\e[1;32m       Whatsapp: https://bit.do/sunilrajak5267890@gmail.com \e[0m"
 echo -e "\e[4;32m   YouTube Page: https://www.youtube.com coming soon.. \e[0m"
 echo "Press Enter To Go Home"
 read a3
@@ -119,8 +119,8 @@ figlet TBomb
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border SpeedX
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           Mail: amitkumar9622770120aaaa@gmail.com \e[0m"
-echo -e "\e[1;32m       Whatsapp: https://bit.do/Amitgit \e[0m"
+echo -e "\e[1;32m           Mail: sunilrajak5267890@gmail.com \e[0m"
+echo -e "\e[1;32m       Whatsapp: https://bit.do/sunilrajak5267890@gmail.com \e[0m"
 echo -e "\e[4;32m   YouTube Page: https://www.youtube.com coming soon.. \e[0m"
 echo " "
 exit 0
