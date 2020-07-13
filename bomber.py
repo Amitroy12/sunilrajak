@@ -248,7 +248,7 @@ def banner():
       ██    ██   ██ ██  ██ ██ ▒ ██ ██  ██         
       ██    ██████▒ ▒████▒ ██   ██ █████▒         
       ▒▒    ▒▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒          
-       Amit roy                                   """
+      SLK                                   """
     print(random.choice(colors)+logo+W)
     print("\n")
 
@@ -436,7 +436,7 @@ def start(target, counter, delay, ch, cc):
                 else:
                     print('\n\n\tSorry Your Country is Not Supported...')
                     print(
-                        '\t\tPlease Send A Mail To amitkumar9622770120aaaa@gmail.com To Let Us Know...')
+                        '\t\tPlease Send A Mail To sunilrajak To Let Us Know...')
                     input('Press Enter To Exit...')
                     exit()
         print(random.choice(colors))
@@ -450,7 +450,7 @@ def start(target, counter, delay, ch, cc):
         print("             Failed Requests         : ", failed)
         print("==================================================================")
         print("              Use this forAmit fun, not for revenge !!                ")
-        print("              This Bomber Was Created By Ãmit !!                ")
+        print("              This Bomber Was Created By SLK !!                ")
         print("==================================================================")
         try:
             result = getapi(target, api, cc)
@@ -555,7 +555,7 @@ elif type == 0:
     if cc == "91":
         nm = int(input("Enter Number of Amit Messages To Send(0 For Unlimited): "))
         dl = float(
-            input("Enter Delay time (in seconds) [Recommended 2 sec Amit ] : "))
+            input("Enter Delay time (in seconds) [Recommended 2 sec sunil ] : "))
     else:
         nm = int(input("Enter Number of Messages To Send: "))
         dl = float(
@@ -619,7 +619,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("              This Bomber Was Created By amit !!                ")
+    print("              This Bomber Was Created By sunil !!                ")
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
